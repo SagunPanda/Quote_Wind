@@ -1,8 +1,8 @@
 fetch("https://api.quotable.io/random")
     .then(data => data.json())
     .then(quoteData =>{
-        const quoteTesxt = quoteData.content.text;
-        const quoteElement = document.getElementById('quoteElemen');
+        const quoteText = quoteData.content;
+        const quoteElement = document.getElementById('quoteElement');
 
         quoteElement.innerHTML=quoteText        
 

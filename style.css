@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+    text-size-adjust: auto;
+    
+}
+
+p{
+    margin: 10%;
+    font-size: 20px;
+    color: whitesmoke;
+}
