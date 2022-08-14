@@ -1,11 +1,13 @@
 {
-    "name":"Quotes Wind",
-    "description":"shows random quotes from Api",
-    "version":"0.0.1",
-    "manifest_version":2,
-    "browser_action":{
-        "default_popup":"popup.html"
-         
+    "name": "Quotes Wind",
+    "description": "Shows random quotes from Api",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "48": "logo.png"
     }
-    
 }
